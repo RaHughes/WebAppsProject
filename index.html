@@ -1,12 +1,70 @@
 <!DOCTYPE html>
+<html lang="en-US" dir="ltr">
 	<head>
+        <meta charset="utf-8">
 		<title>Car Website</title>
 		<link rel='stylesheet' type='text/css' href='stylesheet.css'>
 	</head>
 		<body>
 			<header class='header'>
+                <h1>Web Site Title</h1>
 			</header>
+            <aside>
+                <h2>Product Search</h2>
+                <label for="make">Make</label>
+                <select name="make" id="make">
+                    <option>opt1</option>
+                    <option>opt2</option>
+                    <option>opt3</option>
+                </select>
+                <label for="model">Model</label>
+                <select name="model" id="model">
+                    <option>opt1</option>
+                    <option>opt2</option>
+                    <option>opt3</option>
+                </select>
+                <label for="engine_size"> Engine Size</label>
+                <select name="engine_size" id="engine_size">
+                    <option>opt1</option>
+                    <option>opt2</option>
+                    <option>opt3</option>
+                </select>
+                <label for="model2"> Model </label>
+                <select name="model2" id="model2">
+                    <option>opt1</option>
+                    <option>opt2</option>
+                    <option>opt3</option>
+                </select>
+                <div class="min_max">
+                <label for="min">Min</label>
+                <select name="min" id="min">
+                    <option>opt1</option>
+                    <option>opt2</option>
+                    <option>opt3</option>
+                </select>
+                <label for="max">Max</label>
+                <select name="max" id="max">
+                    <option>opt1</option>
+                    <option>opt2</option>
+                    <option>opt3</option>
+                </select>
+                <button>Search</button>
+            </div>
+            </aside>
 			<main class='main__content'>
+                <div id="top">
+                    <p>30% Off all cars!!!</p>
+                    <p>Click here now</p>
+                </div>
+                <div id="deals">
+                    <p>Cards go here</p>
+                </div>
+                <div id="recently_added">
+                    <p>More Cards here</p>
+                </div>
+                <div id="blogs">
+                    <p>Blogs go here</p>
+                </div>
 			</main>
 		</body>
 		<script src='main.js'></script>
