@@ -1,3 +1,5 @@
+
+
 /* Header */
 .header {
     height: 100px;
@@ -13,10 +15,21 @@
 
 /* Aside */
 
-
+aside {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
 
 
 /* Top */
+
+#top{
+    height: 200px;
+    border: 2px solid black;
+    align-content: center;
+    text-align: center;
+}
 
 
 /* Deals */
